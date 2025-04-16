@@ -1,0 +1,66 @@
+.home-container {
+    max-width: 700px;
+    margin: 50px auto;
+    padding: 30px;
+    background-color: #fefefe;
+    border-radius: 15px;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.1);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .home-heading {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 30px;
+    color: #333;
+  }
+  
+  .home-title-input {
+    width: 100%;
+    padding: 12px 15px;
+    font-size: 1.1rem;
+    margin-bottom: 20px;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    transition: border-color 0.3s ease;
+  }
+  
+  .home-title-input:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .home-textarea {
+    width: 100%;
+    padding: 15px;
+    font-size: 1rem;
+    border-radius: 10px;
+    border: 1px solid #ccc;
+    resize: vertical;
+    min-height: 200px;
+    transition: border-color 0.3s ease;
+    margin-bottom: 20px;
+  }
+  
+  .home-textarea:focus {
+    border-color: #007bff;
+    outline: none;
+  }
+  
+  .home-button {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    font-size: 1.1rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .home-button:hover {
+    background-color: #0056b3;
+  }
+  

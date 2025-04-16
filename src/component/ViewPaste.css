@@ -1,0 +1,58 @@
+.view-paste-container {
+    max-width: 800px;
+    margin: 50px auto;
+    padding: 20px;
+    background-color: #f9f9f9;
+    border-radius: 10px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+  
+  .view-paste-container input,
+  .view-paste-container textarea {
+    width: 100%;
+    padding: 12px;
+    font-size: 1rem;
+    border: 1px solid #ccc;
+    border-radius: 8px;
+    margin-bottom: 20px;
+    box-sizing: border-box;
+    background-color: #fff;
+  }
+  
+  .view-paste-container input:disabled,
+  .view-paste-container textarea:disabled {
+    background-color: #f0f0f0;
+  }
+  
+  .view-paste-container input::placeholder,
+  .view-paste-container textarea::placeholder {
+    color: #aaa;
+  }
+  
+  .view-paste-container button {
+    padding: 12px 25px;
+    font-size: 1rem;
+    color: white;
+    background-color: #007bff;
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  .view-paste-container button:hover {
+    background-color: #0056b3;
+  }
+  
+  .view-paste-container button:disabled {
+    background-color: #ccc;
+    cursor: not-allowed;
+  }
+  
+  .view-paste-title {
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 15px;
+  }
+  
